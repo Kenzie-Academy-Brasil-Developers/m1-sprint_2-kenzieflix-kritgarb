@@ -1,0 +1,119 @@
+body {
+    background-color: black;
+}
+figure {
+    position: absolute;
+    width: 229px;
+    height: 68px;
+    left: 517px;
+    top: 42px;
+    border-radius: 0px;
+}
+.box {
+   display: flex;
+   align-content: flex-start;
+   align-items: center;
+   justify-content: center;
+   justify-items: center;
+}
+ p {
+    color: #FFF4F4;
+    font-style: normal;
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+ .profile-1 {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    left: 300px;
+    top: 200px;
+    
+}
+ .profile-2 {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    left: 500px;
+    top: 200px;
+    
+}
+ .profile-3 {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    left: 700px;
+    top: 200px;
+    
+}
+ .profile-4 {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    left: 900px;
+    top: 200px;    
+}
+ .profile-button {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	align-content: center;
+    padding: 0%;
+    gap: 26px;
+
+}
+ .profile-button :hover {
+    filter:brightness(1.5)
+}
+ footer {
+    height: 75px;
+    width: 220px;
+    left: 2913px;
+    top: 800px;
+    border-radius: 1px;
+    padding: 20px;
+    margin: 25%;
+    margin-left: 38%;
+
+    box-sizing: border-box;
+}
+.button {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    height: 49px;
+    line-height: 49px;
+    color: #FFFFFF;
+    font-family: Trebuchet MS;
+    width: 259px;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 10px;
+    background-color: #000000;
+    -webkit-box-shadow: 1px 1px 6px 0 #000000;
+    -moz-box-shadow: 1px 1px 6px 0 #000000;
+    box-shadow: 1px 1px 6px 0 #000000;
+    text-shadow: 1px 1px 6px #000000;
+    border: solid #FFFFFF 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 75%;
+}
+ .button:hover {
+    border: solid #000000 1px;
+    background: #FFF4F4;    
+    background-image: -ms-linear-gradient(top, #FFF4F4, #645B5B);    background-image: -o-linear-gradient(top, #FFF4F4, #645B5B);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
