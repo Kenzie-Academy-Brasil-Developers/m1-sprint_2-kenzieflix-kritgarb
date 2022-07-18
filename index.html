@@ -1,46 +1,84 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>KenzieFlix</title>
-    <link rel="icon" href="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;500;600&display=swap" rel="stylesheet">
+    <title>Kenzieflix</title>
 </head>
 <body>
-<header>
-        <figure>
-            <img src="./img/logo 1.png" alt="">
-        </figure>
-</header>
-   <main>
-    <section class="box">
-        
-        <div class="profile-1">
-            <button class="profile-button"><img src="./img/avatar1.png" alt=""></button>
-            <p>Memeh</p>
+    <main class="container">
+        <h1 class="logo">
+            <img src="img/logo 1.png" alt="Kenzieflix">
+        </h1>
+        <h2>Quem está assistindo?</h2>
+        <div class="accs_wrapper">
+            <ul>
+                <li>
+                    <img class="acc_img" src="img/avatar1.png">
+                    <p class="acc_name">Aline</p>
+                </li>
+                <li>
+                    <img class="acc_img" src="img/avatar1 (2).png">
+                    <p class="acc_name">Pedrinho</p>
+                </li>
+                <li>
+                    <img class="acc_img" src="img/avatar1 (1).png">
+                    <p class="acc_name">Júlia</p>
+                </li>
+                <li>
+                    <div class="frame">
+                        <svg class="add_acc" width="61" 
+                            height="60" viewBox="0 0 61 60" fill="none"
+                            version="1.1"
+                            id="svg153"
+                            sodipodi:docname="Vector.svg"
+                            xml:space="preserve"
+                            inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+                            xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+                            xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:svg="http://www.w3.org/2000/svg"><defs
+                            id="defs157" />
+                            <path d="m 30.4397,57.1835 c 14.8816,0 26.9456,-12.064 26.9456,-26.9456 0,-14.8816 -12.064,-26.94556 -26.9456,-26.94556 -14.8816,0 -26.94556,12.06396 -26.94556,26.94556 0,14.8816 12.06396,26.9456 26.94556,26.9456 z"
+                                stroke="#6f6f70"
+                                stroke-width="5.38911"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                id="path151" />
+                            <g style="fill:none"
+                                id="g397"
+                                transform="matrix(1.0020215,0,0,1,15.531221,26.856655)"><path
+                                d="M 3.66138,3.2379 H 25.2178"
+                                stroke="#6f6f70"
+                                stroke-width="5.38911"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                id="path388" />
+                            </g>
+                            <g style="fill:none" id="g472" transform="matrix(1,0,0,1.0020207,26.604855,15.783339)"><path
+                                d="M 3.4397,3.45967 V 25.0161"
+                                stroke="#6f6f70"
+                                stroke-width="5.38911"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                id="path463" />
+                            </g>
+                        </svg>
+                    </div>
+                    <p class="acc_name">Adicionar perfil</p>
+                </li>
+            </ul>
         </div>
-
-        <div class="profile-2">
-            <button class="profile-button"><img src="./img/avatar1 (1).png" alt=""></button>
-            <p>Garb</p>
-        </div>
-
-        <div class="profile-3">
-            <button class="profile-button"><img src="./img/avatar1 (2).png" alt=""></button>
-            <p>Laura</p>
-        </div>
-
-        <div class="profile-4">
-          <button class="profile-button"><img src="./img/Frame 5.png" alt=""></button>
-            <p>Adicionar perfil</p>
-        </div>
-    </section>
-   </main>
-<footer>
-    <a href="#" class="button">Gerenciar perfis</a>
-</footer>
+        <footer class="footer_flex">
+            <button class="config">
+                <p>Gerenciar Perfis</p>
+            </button>
+        </footer>
+    </main>
 </body>
 </html>
